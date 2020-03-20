@@ -1,5 +1,7 @@
 package com.advantages.online.tasks.generics;
 
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
+
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 import com.advantages.online.userinterfaces.RegisterAdvantagePage;

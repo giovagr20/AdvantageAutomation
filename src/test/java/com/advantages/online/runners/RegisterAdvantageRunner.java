@@ -9,6 +9,6 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
 features = {"src/test/resources/features/register_advantage.feature" },
-glue = "com.advantage.online.stepdefinitions", 
+glue = "com.advantages.online.stepdefinitions", 
 snippets = SnippetType.CAMELCASE)
 public class RegisterAdvantageRunner {}
